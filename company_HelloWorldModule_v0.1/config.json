@@ -1,0 +1,31 @@
+{
+	"name": "Hello World External Module",
+
+	"namespace": "Company\\HelloWorldExternalModule",
+
+	"description": "External module for displaying hello world on data entry forms (CRFs/instruments)",
+
+	"documentation": "README.md",
+
+	"authors": [
+		{
+			"name": "Ayesh Alshukri",
+			"email": "example@user.com",
+			"institution": "Company"
+		}
+	],
+
+	"permissions": [
+		"redcap_data_entry_form"
+	],
+
+	"links": {
+		"control-center": [
+			{
+				"name": "Hello World",
+				"icon": "report",
+				"url": "generate_template.php"
+			}
+		]
+	}
+}
